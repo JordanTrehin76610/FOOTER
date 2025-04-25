@@ -1,0 +1,66 @@
+
+/*Import de deux police d'écriture google*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+h1 {
+    text-align: center;
+    margin: 13%;
+    font-size: 3rem;
+    font-family: "Roboto", sans-serif;
+}
+
+footer {
+    background-color: rgb(196, 193, 193);
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+iframe {
+    height: 17rem;;
+    width: 30rem;
+    padding: 1rem;
+}
+
+.coordonnées {
+    text-align: center;
+}
+
+.horaires {
+    text-align: justify;
+}
+
+/*Pour les mettre cote à cote = Div parent en mode box*/
+.box {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* Icone */
+i {
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+h2,
+p,
+li {
+    font-family: "Source Sans 3", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 6rem;
+}
+
+.center {
+    text-align: center;
+    margin-top: 2rem;
+}
