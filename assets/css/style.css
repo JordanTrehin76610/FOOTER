@@ -54,6 +54,7 @@ li {
     font-family: "Source Sans 3", sans-serif;
 }
 
+/*display pour mettre les listes côte à côte*/
 ul {
     list-style-type: none;
     display: inline-block;
