@@ -1,45 +1,69 @@
-
 /*Import de deux police d'écriture google*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
-
-h1 {
+main {
+    display: table-cell;
     text-align: center;
-    margin: 13%;
+    height: 65vh;
+    width: 100vw;
     font-size: 3rem;
     font-family: "Roboto", sans-serif;
+    vertical-align: middle;
 }
 
 footer {
     background-color: rgb(196, 193, 193);
-    padding-top: 2rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    height: 34vh;
+    width: 100vw;
+    display: inline-block;
+    width: 100vw;
+    vertical-align: top;
 }
 
-iframe {
-    height: 17rem;;
-    width: 30rem;
-    padding: 1rem;
+/*Nos 3 colonne avec inline-block au lieu de grid*/
+
+.carte {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 33%;
+    height: 75%;
+    margin-top: 1rem;
 }
 
 .coordonnées {
     text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+    height: 75%;
 }
 
 .horaires {
-    text-align: justify;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+    height: 75%;
 }
 
-/*Pour les mettre cote à cote = Div parent en mode box*/
-.box {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-}
 
 h2 {
     text-align: center;
     font-size: 1.5rem;
+}
+
+/*Horaires*/
+table th {
+    width: 65%;
+}
+
+table td {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
 }
 
 /* Icone */
@@ -52,16 +76,4 @@ h2,
 p,
 li {
     font-family: "Source Sans 3", sans-serif;
-}
-
-/*display pour mettre les listes côte à côte*/
-ul {
-    list-style-type: none;
-    display: inline-block;
-    margin-left: 6rem;
-}
-
-.center {
-    text-align: center;
-    margin-top: 2rem;
 }
